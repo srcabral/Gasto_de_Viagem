@@ -62,6 +62,7 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="@string/resultado_do_valor"
+        android:textColor="@color/darkBlue"
         android:textSize="32sp" />
 
     <Button
@@ -69,6 +70,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:textSize="16sp"
-        android:text="CALCULAR" />
+        android:background="@color/teal_200"
+        android:textColor="@color/white"
+        android:text="CALCULAR"/>
 
 </LinearLayout>
