@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:hint="@string/distancia" />
+        android:hint="@string/distancia"
+        android:inputType="number" />
 
     <TextView
         android:layout_width="match_parent"
@@ -26,7 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="@string/preco" />
+        android:hint="@string/preco"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="match_parent"
@@ -39,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="@string/autonomia" />
+        android:hint="@string/autonomia"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="match_parent"
@@ -69,9 +72,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:textSize="16sp"
         android:background="@color/teal_200"
+        android:text="CALCULAR"
         android:textColor="@color/white"
-        android:text="CALCULAR"/>
+        android:textSize="16sp" />
 
 </LinearLayout>
